@@ -1,0 +1,119 @@
+body {
+    background-color: #073D2D; /* Dark green background */
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    color: #E6E6F5; /* Light lavender text */
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #D4AF37; /* Gold color */
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    flex: 0 0 220px;
+    padding: 15px;
+}
+
+.text {
+    flex: 1;
+    padding: 5px 15px;
+}
+
+.text h2 {
+    color: #D4AF37;
+    margin-top: 0;
+}
+
+.bio-section {
+    margin-bottom: 15px;
+}
+
+.bio-title {
+    color: #D4AF37;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.bio-content {
+    margin-top: 0;
+}
+
+.bio-list {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bio-list li {
+    margin-bottom: 3px;
+}
+
+.bio-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio-column {
+    width: 48%;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.buttons img {
+    height: 31px;
+    margin: 0 2px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #E6E6F5;
+    padding-top: 10px;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+    color: #D4AF37; /* Gold color */
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+a {
+    color: #D4AF37; /* Gold color */
+}
+
+a:hover {
+    color: #FFD700; /* Brighter gold on hover */
+}
+
+marquee {
+    margin-top: 20px;
+}
